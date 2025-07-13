@@ -11,7 +11,7 @@ body{
     line-height: 40px;
     margin-right: 20px;
 }
-/*����*/
+/*����*/
 .navbar{margin-bottom: 0;border-bottom: 1px solid #e6e6e6;}
 .navbar-default{
     background-color: #fff;
@@ -110,6 +110,135 @@ body{
 #course .col-md-3{
     margin-bottom: 20px;
 }
+/* 商品模块间距优化 */
+#products {
+    margin-top: 60px;    /* 增加与上方模块的间距 */
+    margin-bottom: 60px; /* 增加与下方联系我们模块的间距 */
+    padding: 40px 0;     /* 增加模块内部上下 padding */
+}
+
+/* 商品名称样式优化 */
+.product-item {
+    display: block;      /* 确保链接为块级元素 */
+    text-decoration: none; /* 移除下划线 */
+}
+
+.product-title {
+    text-align: center;  /* 文字居中 */
+    margin-top: 15px;    /* 图片与标题上间距 */
+    margin-bottom: 10px; /* 标题下间距 */
+    padding: 10px 0;     /* 标题内边距 */
+    color: #333;         /* 文字颜色 */
+    font-size: 16px;     /* 字体大小 */
+    font-weight: 500;    /* 字体粗细 */
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+    width: 100%;
+    height: auto;
+}
+
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
 .course {
     background: #ffffff;
     border: 1px solid #eee;
@@ -190,4 +319,2126 @@ footer{
     text-align: center;
     padding:20px;
     color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
+}
+
+/* 商品图片容器样式 */
+.course {
+    margin-bottom: 20px; /* 增加商品项之间的下间距 */
+    text-align: center;  /* 图片居中显示 */
+}
+
+.case-img {
+    margin: 0 auto;      /* 图片水平居中 */
+    max-height: 200px;   /* 限制图片最大高度 */
+    object-fit: cover;   /* 保持图片比例并填充容器 */
+}
+.course {
+    background: #ffffff;
+    border: 1px solid #eee;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #38f;
+    border-radius: 0px;
+    color: #38f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #38f;
+    color: #fff;
+}
+.course .case-img{width:100%;height:auto;}
+
+/*app*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*contact*/
+#contact{
+    background: url("../images/contact-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height:24px;
+    margin-bottom:2px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
 }
